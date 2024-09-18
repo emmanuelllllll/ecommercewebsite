@@ -1,0 +1,123 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5;
+    color: #800000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6d5869;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+section h2 {
+    color: #660d05;
+    border-bottom: 2px solid #ffb6c1;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ff6f61;
+}
+
+th {
+    background-color: rgb(226, 167, 199);
+    color: rgb(19, 18, 18);
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #790f05;
+}
+
+a:hover {
+    color: #ff3333;
+}
+
+
+button {
+    background-color: #1f0122;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+#phone, #email {
+    display: none;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color:#6d5869;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+img {
+    width: 500px;
+    padding-left:26rem;
+    padding-top: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+    img {
+        width: 200px;
+        padding-left: 100px;
+        padding-top: 15px;
+    }
+}
